@@ -6,10 +6,12 @@
 //  Copyright © 2020 Sam McDonald. All rights reserved.
 //
 
-#include <iostream>
+#include "quadratic.h"
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    runQuadraticSolver();
     return 0;
 }
