@@ -7,11 +7,13 @@
 //
 
 #include "quadratic.h"
+#include "types.h"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
     
-    runQuadraticSolver();
+    arrays();
+    //runQuadraticSolver();
     return 0;
 }
